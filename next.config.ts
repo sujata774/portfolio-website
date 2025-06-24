@@ -3,11 +3,11 @@
 const nextConfig = {
   images: {
     domains: [
-      'miro.medium.com',
-      'm.media-amazon.com',
-      'www.eventact.com'
+      'flatirons.com',
+      'encrypted-tbn0.gstatic.com'
+      // add more domains here if you use other external images
     ],
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

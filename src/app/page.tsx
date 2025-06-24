@@ -102,7 +102,14 @@ const Portfolio = () => {
           <div className="mb-8 relative">
             <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-r from-purple-400 to-pink-400 p-1">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
-                <span className="text-6xl font-bold text-white">SG</span>
+               <Image
+      src="/ict 3.webp"
+      alt="Profile pic"
+      width={128} // ✅ Required
+      height={128} // ✅ Required
+      className="rounded-full h-32 w-32 object-cover" // Optional Tailwind styles
+      sizes="128px"
+    />
               </div>
             </div>
           </div>
@@ -145,19 +152,19 @@ const Portfolio = () => {
               <div className="flex flex-wrap gap-4 mt-8">
                 <div className="flex items-center gap-2">
                   <Github className="text-purple-400" size={20} />
-                  <a href="https://github.com/khandu990" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+                  <a href="https://github.com/sujata774" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
                     GitHub
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Linkedin className="text-purple-400" size={20} />
-                  <a href="https://www.linkedin.com/in/khandu-zangmo" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
+                  <a href="https://www.linkedin.com/in/sujata-gajmer" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-purple-400 transition-colors">
                     LinkedIn
                   </a>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="text-purple-400" size={20} />
-                  <a href="mailto:khanduz880@gmail.com" className="text-gray-300 hover:text-purple-400 transition-colors">
+                  <a href="mailto:gajmersujata23@gmail.com" className="text-gray-300 hover:text-purple-400 transition-colors">
                     Email
                   </a>
                 </div>
@@ -236,17 +243,17 @@ const Portfolio = () => {
             <div className="p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
               <Mail className="mx-auto mb-4 text-purple-400" size={32} />
               <h3 className="text-lg font-semibold text-white mb-2">Email</h3>
-              <p className="text-gray-300">khanduz880@gmail.com</p>
+              <p className="text-gray-300">gajmersujata23@gmail.com</p>
             </div>
             <div className="p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
               <Github className="mx-auto mb-4 text-purple-400" size={32} />
               <h3 className="text-lg font-semibold text-white mb-2">GitHub</h3>
-              <p className="text-gray-300">khandu990</p>
+              <p className="text-gray-300">sujata774</p>
             </div>
             <div className="p-6 bg-white/5 backdrop-blur-sm rounded-xl border border-white/10">
               <Linkedin className="mx-auto mb-4 text-purple-400" size={32} />
               <h3 className="text-lg font-semibold text-white mb-2">LinkedIn</h3>
-              <p className="text-gray-300">Khandu Zangmo</p>
+              <p className="text-gray-300">Sujata Gajmer</p>
             </div>
           </div>
           <button className="px-8 py-4 bg-gradient-to-r from-purple-600 to-pink-600 text-white text-lg rounded-full hover:from-purple-700 hover:to-pink-700 transition-all duration-300 transform hover:scale-105">
@@ -258,7 +265,7 @@ const Portfolio = () => {
       <footer className="py-8 px-4 border-t border-white/10">
         <div className="max-w-7xl mx-auto text-center">
           <p className="text-gray-400">
-            © 2025 Khandu Zangmo. Built with Next.js and Tailwind CSS.
+            © 2025 Sujata Gajmer. Built with Next.js and Tailwind CSS.
           </p>
         </div>
       </footer>
